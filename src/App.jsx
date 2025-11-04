@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import { Navbar } from "./components/organisms/navbar"
 import { HomePage } from "./components/pages/homePage"
-import { StudentPage } from "./components/pages/studentsPage"
 
 function App() {
   /* 
@@ -15,7 +14,6 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" Component={HomePage} />
-        <Route path="/estudiantes" Component={StudentPage} />
       </Routes>
     </>
   )
